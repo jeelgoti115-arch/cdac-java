@@ -15,13 +15,13 @@ class GradingSystem{
 		if (a < 33 || b < 33 || c < 33)
 			System.out.println("\n Fail! Better luck next time ");
 
-		if (avg > 90) {
+		if (avg >= 90) {
 			System.out.println("A");
-		}else if(avg > 80){
+		}else if(avg >= 80){
 			System.out.println("B");
-		}else if(avg > 70){
+		}else if(avg >= 70){
 			System.out.println("C");
-		}else if(avg > 60){
+		}else if(avg >= 60){
 			System.out.println("D");
 		}else{
 			System.out.println("\n Fail! Better luck next time ");
