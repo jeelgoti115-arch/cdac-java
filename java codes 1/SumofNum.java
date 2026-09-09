@@ -2,9 +2,8 @@
 
 public class SumofNum {
 	public static void main(String[] args) {
-		int i = Integer.parseInt(args[0]);
 		int sum = 0;
-		for(i=0;i<101;i++){
+		for(int i=0;i<101;i++){
 			sum += i;
 		}
 		System.out.println(sum);
