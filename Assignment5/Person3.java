@@ -3,22 +3,11 @@ public class Person3 {
 	private int age;
 	private String country;
 
-	// public void setData(String name,int age,String country) {
-	// 		this.name = name;
-	// 		this.age = age;
-	// 		this.country = country;
-	// }
-
 	Person3(String name,int age,String country){
 		this.name = name;
 		this.age = age;
 		this.country = country;
-	}
-
-	Person3(String name,int age){
-		this.name = name;
-		this.age = age;
-		this.country = "India";
+		return ;
 	}
 
 	public void getData() {
