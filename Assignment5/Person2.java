@@ -10,7 +10,7 @@ class Person2 {
 	}
 	
 	public void getData() {
-			System.out.println(name+ " " +age+ " " +country);
+		System.out.println(name+ " " +age+ " " +country);
 	}
 
 	public static void main(String[] args) {

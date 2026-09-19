@@ -20,11 +20,9 @@ public class Problem5 {
 				System.out.println(e);
 			}
 
-		}
-		catch (Exception e) {
+		}catch (Exception e) {
 			System.out.println("Some other exception occurred: " + e);
-		}
-finally {
+		}finally {
 			System.out.println("Program completed.");
 		}
 }

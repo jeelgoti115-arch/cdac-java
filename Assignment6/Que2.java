@@ -1,35 +1,35 @@
-	class Person {
-		protected String name;
-		protected int age;
+class Person {
+	protected String name;
+	protected int age;
 
-		public void setData(String name, int age) {
-			this.name = name;
-			this.age = age;
-		}
-
-		public void getData() {
-			System.out.println("Name: " + name);
-			System.out.println("Age: " + age);
-		}
+	public void setData(String name, int age) {
+		this.name = name;
+		this.age = age;
 	}
 
-	class Employee extends Person {
-		private int empId;
-		private double salary;
-
-		public void setData(String name, int age, int empId, double salary) {
-			super.setData(name, age);
-			this.empId = empId;
-			this.salary = salary;
-		}
-
-		@Override
-		public void getData() {
-			super.getData();
-			System.out.println("Employee ID: " + empId);
-			System.out.println("Salary: $" + salary);
-		}
+	public void getData() {
+		System.out.println("Name: " + name);
+		System.out.println("Age: " + age);
 	}
+}
+
+class Employee extends Person {
+	private int empId;
+	private double salary;
+
+	public void setData(String name, int age, int empId, double salary) {
+		super.setData(name, age);
+		this.empId = empId;
+		this.salary = salary;
+	}
+
+	@Override
+	public void getData() {
+		super.getData();
+		System.out.println("Employee ID: " + empId);
+		System.out.println("Salary: $" + salary);
+	}
+}
 
 	public class Que2 {
 		public static void main(String[] args) {
